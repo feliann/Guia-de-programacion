@@ -12,7 +12,14 @@ public class Ej2 : MonoBehaviour
 
         void Start()
     {
-        
+        int num1=4;
+        int num2=5;
+        int res1=0;
+        int res2=0;
+        res1 = num1 + num2;
+        Debug.Log(res1);
+        res2 = num1 * num2;
+        Debug.Log(res2);
     }
 
     // Update is called once per frame
