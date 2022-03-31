@@ -8,11 +8,11 @@ public class Ej3 : MonoBehaviour
     //en la consola un mensaje de saludo que incluya el texto de la variable. Por ejemplo, si en la variable se 
     //ingresa el texto “Ana”, el mensaje en consola debe decir “Hola Ana”. 
 
-    string nombre;
+    int nom;
     void Start()
     {
         Debug.Log("ingresa tu nombre");
-        Debug.Log("hola" + nombre);
+        Debug.Log("hola" + nom);
     }
 
     // Update is called once per frame
