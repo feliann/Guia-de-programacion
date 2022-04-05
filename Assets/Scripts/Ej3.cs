@@ -12,7 +12,7 @@ public class Ej3 : MonoBehaviour
     void Start()
     {
       
-        Debug.Log("hola" + nom);
+        Debug.Log("hola"+ nom);
     }
 
     // Update is called once per frame

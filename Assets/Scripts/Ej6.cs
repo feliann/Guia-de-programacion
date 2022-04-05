@@ -8,9 +8,18 @@ public class Ej6 : MonoBehaviour
     //llamada num1 y muestre un mensaje por pantalla indicando "el  número es par" o "el número es impar". 
     //Deberá utilizar el operador “módulo” es el caracter  %.
 
+    public int num1;
+    
+    
     void Start()
     {
-        
+        if (num1 < 0)
+            Debug.Log("el numero tiene que se mayor a 0");
+
+        else if ((num1 % 2) == 0)
+            Debug.Log("Es Par");
+        else
+            Debug.Log("Es Impar");
     }
 
     // Update is called once per frame
